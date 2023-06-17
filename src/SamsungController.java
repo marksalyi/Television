@@ -22,8 +22,5 @@ public class SamsungController extends Controller{
 
     @Override
     int channelDown(int currentChannel) {
-        int newChannel = currentChannel - 1;
-        System.out.println("channel is: " + newChannel);
-        return newChannel;
     }
 }
