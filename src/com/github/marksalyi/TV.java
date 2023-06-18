@@ -14,18 +14,10 @@ abstract class TV {
         this.controller = controller;
     }
 
-
     protected void volumeUp(){
 
     }
 
-    protected void volumeDown(){
 
-    }
-    protected void channelUp(){
 
-    }
-    protected void channelDown(){
-
-    }
 }
