@@ -1,9 +1,12 @@
-public abstract class Controller {
+package com.github.marksalyi;
+
+public interface Controller {
 
 
-    public abstract int volumeUp(int currentVolume);
-    public abstract int volumeDown(int currentVolume);
-    public abstract int channelUp(int currentChannel);
-    public abstract int channelDown(int currentChannel);
+    int volumeUp();
+    int volumeDown();
+    int channelUp();
+    int channelDown();
+
 
 }
